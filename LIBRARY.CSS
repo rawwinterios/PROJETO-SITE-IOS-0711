@@ -1,0 +1,250 @@
+
+ /*fonte da pagina*/
+  .titulo {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  /* Links de navegação */
+  .Rob_menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*menu */
+
+  .Eve_menu
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(165, 43, 221);
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      
+      li a:hover {
+        background-color: #83e0b5;
+ } 
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Efeito Pallarox */
+
+section{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding: 40px 4%;
+  font-family: roboto;
+  color: rgb(20,20,20);
+
+
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+  margin-bottom: 10px;
+}
+
+section:nth-of-type(1) h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  margin-top: 150px;
+}
+
+section:nth-of-type(1){
+  background-image: url("img2.jpg");
+  color: rgb(255, 251, 251);
+  font-size: 60px;
+}
+
+section:nth-of-type(3){
+  background-image: url("img3 (2).jpg");
+}
+
+section:nth-of-type(5){
+  background-image: url("img4.png");
+}
+section:nth-of-type(7){
+  background-image: url("img4.png");
+}
+
+
+
+/* FORMULÁRIO CADASTRO */
+
+body {
+  background-color: rgba(157, 123, 173, 0.623);
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #72dce4, rgb(165, 43, 221));
+}
+.box{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 15px;
+  width: 30%;
+}
+fieldset{
+  border: 3px solid rgb(165, 20, 221);
+}
+legend{
+  border: 1px solid rgb(218, 30, 255);
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(218, 177, 236);
+  border-radius: 8px;
+}
+.inputBox{
+  position: relative;
+}
+.inputUser{
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+.labelInput{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+  top: -20px;
+  font-size: 12px;
+  color: dodgerblue;
+}
+#data_nascimento{
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+#submit{
+  background-image: linear-gradient(to right,rgb(10, 206, 131), rgb(90, 20, 220));
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#submit:hover{
+  background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+.example {
+  text-align: justify;
+  border: solid;
+}
+/*imagens*/
+img {
+  float: right;
+}
+
+/* pag redes sociais*/
+.oi{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
+}
+
+body{
+  background-image: linear-gradient(to right, #72dce4, rgb(165, 43, 221));
+
+}
+
+.s-m{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.s-m a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: rgb(165, 20, 221);
+  color: white;
+  margin: 0 3px;
+  border-radius: 50%;
+  align-items: center;
+  transition: 0.5s;
+  font-size: 23px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.s-m-a:hover{
+  background: rgb(218, 30, 255);
+}
+
+.s-m-a i{
+  transition: 0.5s all;
+}
+.s-m-a:hover > i{
+  transform: scale(1.4)rotate(26deg);
+}
+/* onu*/
+
+.s-m1{
+  position: absolute;
+  top: 286%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+}
+.s-m2{
+  position: absolute;
+  top: 107%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.ios{
+  position: absolute;
+  top: 466%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
